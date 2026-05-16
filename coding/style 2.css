@@ -1,0 +1,25 @@
+.hero{
+      background-image:url('asset/co2.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .custom-border th,
+    .custom-border td{
+      border: 2px solid black;
+    }
+    
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container.my-5 {
+  flex: 1;
+}
